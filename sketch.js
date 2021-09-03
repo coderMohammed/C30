@@ -39,7 +39,7 @@ function setup() {
     density:0.001,
   }
   fruit = Bodies.circle(300,300,20,options);
-  bunny = createSprite(250,540,10,10);
+  bunny = createSprite(250,610,10,10);
   bunny.addImage("Bunny",rabbit);
   bunny.scale = 0.2
   Matter.Composite.add(rope.body,fruit);
